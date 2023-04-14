@@ -15,10 +15,10 @@
                 <!-- player health -->
                 <div class="player-health-container">
                     <div class="player-health"></div>
-                    <div class="player-health2" id="enemyHealth"></div>
+                    <div class="player-health2" id="playerHealth"></div>
                 </div>
                 <!-- timer -->
-                <div class="timer"></div>
+                <div class="timer" id="timer">10</div>
                 <!-- enemy health -->
                 <div class="enemy-health-container">
                     <div class="enemy-health"></div>
@@ -26,9 +26,11 @@
                 </div>
                 <div></div>
             </div>
+            <div class="tie" id="displayText">Tie</div>
             <canvas></canvas>
         </div>
-
+        <script src="js/utils.js"></script>
+        <script src="js/classes.js"></script>
         <script src="index.js"></script>
     </body>
 </html>
